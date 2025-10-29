@@ -734,7 +734,7 @@ BrAddbtn3.addEventListener("click", function () {
 
     var TotalnetWeight = Loadtotal - Emptytotal
     var Average = TotalnetWeight/multiple3
-    Netavg.textContent=("Birds Average : "+Average.toFixed(3))
+    Netavg.textContent=("Birds Average : "+Average.toFixed(2))
 })
 
 BrAddbtn4.addEventListener("click", function () {
